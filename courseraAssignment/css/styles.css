@@ -1,0 +1,16 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-color: black;
+	margin:0;
+	padding:50px;
+}
+
+h1 {
+	text-align: center;
+	font-style: serif;
+	font-color: blue;
+}	
+.box {
+	background-color: grey;
+
+}
