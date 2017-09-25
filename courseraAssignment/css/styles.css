@@ -7,7 +7,6 @@
   width:100%;
 }
 body {
-	font-family:font-family: 'Lobster', cursive;
 	height:auto;
   background-color:#ECF0F1;
   position:fixed;
@@ -16,18 +15,20 @@ body {
 h1 {
 	margin-top:40px;
 	text-align: center;
-	font-family:font-family: 'Lobster', cursive;
+	font-family:'Lobster', cursive;
   color: #0286FF;
 }
 h5 {
-  font-family:font-family: 'Lobster', cursive;
-  color:#00000;
+  font-family:'Lobster', cursive;
+  color:#000000;
   text-align:center;
+  text-transform:Uppercase;
 }
 p {
   margin: 10px 5px 10px 5px;
   padding: 10px 5px 10px 5px;
   color: #000000;
+  font-family:cursive;
 }
 .html {
   float: right;
@@ -60,8 +61,7 @@ p {
 @media (min-width: 992px) {
     	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     		float: left;
-    	}
-    }	
+    	}	
     .col-lg-1 {
     	width: 8.33%;
     }
@@ -98,7 +98,8 @@ p {
     .col-lg-12 {
       width: 100%;
     }
-  
+}
+
   @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
