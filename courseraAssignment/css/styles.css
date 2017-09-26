@@ -8,27 +8,32 @@
 }
 body {
 	height:auto;
-  background-color:#ECF0F1;
-  position:fixed;
-}
+    background-color:#ECF0F1;
+    position:fixed;
+    font-size: 50px;
+} 
 
 h1 {
-	margin-top:40px;
+	margin:50px 0px 25px 0px;
 	text-align: center;
 	font-family:'Lobster', cursive;
-  color: #0286FF;
+    color: #0286FF;
+    font-size:100%; 
 }
 h5 {
   font-family:'Lobster', cursive;
   color:#000000;
   text-align:center;
   text-transform:Uppercase;
+  font-size: 75%;
+  overflow: hidden;
 }
 p {
   margin: 10px 5px 10px 5px;
   padding: 10px 5px 10px 5px;
   color: #000000;
   font-family:cursive;
+  font-size: 25%;
 }
 .html {
   float: right;
@@ -61,6 +66,7 @@ p {
 @media (min-width: 992px) {
     	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     		float: left;
+    		border:1px solid black;
     	}	
     .col-lg-1 {
     	width: 8.33%;
@@ -103,7 +109,21 @@ p {
   @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+    border:1px solid black;
   }
+ 	body{ 
+ 	font-size: 40px;
+ }
+ h1 {
+ 	font-size: 100%
+ }
+ h5 {
+ 	font-size: 75%;
+ }
+ p {
+ 	font-size: 25%;
+ }
+ }
   .col-md-1 {
     width: 8.33%;
   }
@@ -145,7 +165,21 @@ p {
 @media (max-width: 767px) {
 	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 		float: left;
+		border:1px solid black;
 	}
+	body{ 
+ 	font-size: 30px;
+ }
+ h1 {
+ 	font-size: 100%
+ }
+ h5 {
+ 	font-size: 75%;
+ }
+ p {
+ 	font-size: 25%;
+ }
+
 	.col-sm-1 {
     width: 8.33%;
   }
