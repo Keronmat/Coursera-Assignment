@@ -1,0 +1,9 @@
+nav {
+	background-color: #B3B6B7;
+	position: relative;
+    font-family:Lobster;
+}
+.navbar-brand {
+	padding-bottom:0;
+	margin-bottom:20px;
+}
