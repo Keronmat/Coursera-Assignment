@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.row {
+  width:100%;
+}
+body {
+	height:auto;
+  background-color:#ECF0F1;
+  position:fixed;
+}
+
+h1 {
+	margin-top:0;
+	margin-bottom:0;
+	text-align: center;
+	font-family:'Lobster', cursive;
+    color: #0286FF;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #0286FF;
+}
+h5 {
+  font-family:'Lobster', cursive;
+  color:#000000;
+  text-align:center;
+  text-transform:Uppercase;
+  overflow:hidden;
+}
+p {
+  margin: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
+  color: #000000;
+  font-family:cursive;
+}
+/**My navgation bar start**/
+.navbar{
+	min-height: 60px;
+	margin-top:0;
+	margin-bottom: 5px;
+
+}
+.navbar-default{
+	background-color:#34495E;
+}
+#nav-list{
+	margin: 10px 10px;
+	text-align: center;
+}
+#nav-list > li > a:hover {
+  color: #0286FF;
+  text-align: center;
+  text-decoration: underline;
+} 
+
+/**My navgation bar ends**/
+
+.html {
+  float: right;
+  background-color:red;
+  border:1px solid black;
+  width: 25%;
+  position: relative;
+}
+.CSS {
+  float: right;
+  background-color:blue;
+  border:1px solid black;
+  width: 25%;
+  position: relative; ;
+}
+.JavaScript {
+  float: right;
+  background-color:yellow;
+  border:1px solid black;
+  width: 25%;
+  position: relative;
+}
+.section{
+  background-color:#5F6A6A;
+  border: 1px solid black;
+  margin: 10px 5px 10px 5px;
+  padding: 0px 0px 10px 5px;
+  position:relative;
+}
+/** Footer Starts **/
+.panel-footer {
+  background-color:#34495E;
+  border-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  color:white;
+}
+@media (min-width: 992px) {
+    	.section{
+    		float: left;
+            border:1px solid black;
+    	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .section{
+    		float: left;
+            border:1px solid black;
+    	}
+}
+@media (max-width: 767px) {
+	.section{
+    		float: left;
+            border:1px solid black;
+            font-size: 1.0em;
+    	}
+  body{ 
+ 	font-size: 40px;
+ }
+ h1 {
+ 	font-size: .75em;
+ }
+ h5 {
+ 	font-size: 75%;
+ }
+ p {
+ 	font-size: 25%;
+ }
+} 
