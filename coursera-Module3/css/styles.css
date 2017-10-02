@@ -29,8 +29,9 @@ p {
 	background-color:#34495E;
 }
 #nav-list{
-	margin: 10px 10px;
+	margin: 10px auto;
 	text-align: center;
+	background-color:#CCD1D1;
 }
 #nav-list > li > a:hover {
   color: #0286FF;
