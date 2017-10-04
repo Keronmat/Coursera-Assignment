@@ -11,7 +11,6 @@ body {
 	height:auto;
   background-color:#ECF0F1;
   position:relative;
-  font-size: 40px;
 }
 #main-content{
   width: 100%;
@@ -34,7 +33,7 @@ h3 {
   font-family:'Lobster', cursive;
   color:#000000;
   text-align:center;
-  text-transform:Uppercase;
+  text-transform:uppercase;
   overflow:hidden;
   font-size: 1.5em;
 }
@@ -53,12 +52,9 @@ p {
 }
 .navbar-default{
 	background-color:#34495E;
-  font-size: .5em;
 }
 #nav-list{
 	margin: 10px auto;
-	text-align: center;
-  background-color:#CCD1D1;
   font-family:'Lobster', cursive;
 }
 #nav-list > li > a:hover {
@@ -66,7 +62,10 @@ p {
   text-align: center;
   text-decoration: underline;
 } 
-
+#nav-list >li > a{
+  color:#F7F9F9;
+  font-size: 1.5em;
+}
 /**My navgation bar ends**/
 
 .html {
@@ -81,7 +80,7 @@ p {
   background-color:blue;
   border:1px solid black;
   width: 25%;
-  position: relative; ;
+  position: relative;
 }
 .JavaScript {
   float: right;
@@ -106,61 +105,58 @@ p {
   color:white;
 }
 @media (min-width: 992px) {
-    	.section{
+    	.section {
     		float: left;
-            border:1px solid black;
+        border:1px solid black;
     	}
       h1 {
-  font-size: .50em;
- }
- h3 {
-  font-size: 0.50em;
- }
- p {
-  font-size: 0.40em;
- }
- #nav-list{
-  font-size: 1.5;
- }
- .navbar-brand{
-  font-size: 2.5em;
- }
+        font-size: ;
+      }
+      h3 {
+        font-size:;
+      }
+      #nav-list{
+        font-size:;
+      }
+      .navbar-brand{
+        font-size: ;
+      }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .section{
-    		float: left;
-            border:1px solid black;
-    	}
-      h1 {
-  font-size: .70em;
- }
- h3 {
-  font-size: 0.55em;
- }
- p {
-  font-size: 0.45em;
- }
- #nav-list{
-  font-size: 1.5;
- }
+        float: left;
+        border:1px solid black;
+    }
+    h1 {
+      font-size: ;
+    }
+    h3 {
+      font-size: ;
+    }
+    p {
+      font-size:;
+    }
+    #nav-list{
+      font-size: ;
+    }
 }
 @media (max-width: 767px) {
 	.section{
     		float: left;
-            border:1px solid black;
-            font-size: 1.0em;
+        border:1px solid black;
+        font-size: 1.0em;
     	}
 
- h1 {
- 	font-size: .50em;
- }
- h3 {
- 	font-size: 0.50em;
- }
- p {
- 	font-size: 0.40em;
- }
- #nav-list{
-  font-size: 1.5;
- }
+  h1 {
+ 	  font-size:.9em;
+  }
+  h3 {
+ 	  font-size:.8em;
+  }
+  p {
+ 	  font-size:;
+  }
+  #nav-list{
+    font-size:.9em;
+  }
 } 
